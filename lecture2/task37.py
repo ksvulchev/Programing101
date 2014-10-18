@@ -37,4 +37,4 @@ def magic_square(matrix):
 
 	return True
 
-print (magic_square([[16, 23, 17], [78, 32, 21], [17, 16, 15]]))
+print (magic_square([[16, 23, 17], [78, 32, 21], [17, 16, 15]]	))
