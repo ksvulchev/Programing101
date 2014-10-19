@@ -1,9 +1,5 @@
 #!/usr/bin/python
-def magic_square(matrix):
-	summ = 0
-	for n in matrix[0]:
-		summ += n
-		print(summ)
+def row_check(matrix, summ):
 
 	for row in range(len(matrix)):
 		col_sum = 0
@@ -13,6 +9,9 @@ def magic_square(matrix):
 		if col_sum != summ:
 			return False
 
+	return True
+
+def col_check(matrix, summ):
 
 	for col in range(len(matrix)):
 		row_sum = 0
@@ -21,6 +20,10 @@ def magic_square(matrix):
 		print(row_sum)
 		if row_sum != summ:
 			return False
+
+	return True
+
+def diagonal_check(matrix, summ):
 
 	diagonal_sum = 0
 	diagonal_two_sum = 0
@@ -37,4 +40,18 @@ def magic_square(matrix):
 
 	return True
 
-print (magic_square([[16, 23, 17], [78, 32, 21], [17, 16, 15]]	))
+def magic_square(matrix):
+	summ = 0
+	for n in matrix[0]:
+		summ += n
+		print(summ)
+
+
+	if col_check(matrix,summ) and col_check(matrix,summ) and diagonal_check(matrix,summ):
+		return True
+	else:
+		return False
+	
+
+
+print (magic_square([[1,2,3], [4,5,6], [7,8,9]]))
