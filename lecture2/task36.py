@@ -23,4 +23,3 @@ def goldbach(n):
 
 print (goldbach(100))
 
-""" pregeledai task4 che ne bachka !!! """

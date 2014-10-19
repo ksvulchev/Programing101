@@ -8,7 +8,7 @@ def main():
 	num_arr = content.split(" ")
 	suma = 0
 	for i in num_arr:
-		suma += int(i) #poluchava se whitespace nakraq v number.txt
+		suma += int(i) 
 	print(suma)
 	file.close()
 
