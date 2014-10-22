@@ -1,4 +1,5 @@
 #!/usr/bin/python
+#INCOMPLETE
 def matrix_bombing_plan(m):
 	original_matrix = m[:]
 	suma = 0
