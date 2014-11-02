@@ -1,0 +1,21 @@
+{
+    "name": "Play list",
+    "songs": [
+        {
+            "title": "Yeah",
+            "album": "OMG",
+            "length": "380",
+            "artist": "Usher",
+            "rating": null,
+            "bitrate": 10000
+        },
+        {
+            "title": "Sorry",
+            "album": "WTF",
+            "length": "280",
+            "artist": "Akon",
+            "rating": null,
+            "bitrate": 15000
+        }
+    ]
+}
